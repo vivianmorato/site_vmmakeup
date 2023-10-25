@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff5f5;
+}
+
+header {
+    padding: 24px;
+    background-color:#CB5C64;
+    color:#fff5f5
+}
+
+header h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+header h1 .destaque {
+    font-weight:600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+header nav li {
+    display:inline;
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:#F4DADB;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.me {
+    height: 500px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    margin-top: 16px;
+    font-family: 'Outfit', sans-serif;
+    color:#CB5C64;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 10px;
+}
+
+section .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #fff5f5;
+    margin-top: 60px;
+}
+
+section .container a img {
+    height: 25px;
+    margin-right: 8px;
+}
+
+.social h3 {
+    font-family: 'Comfortaa', sans-serif;
+    color:#CB5C64;
+    font-size: 20px;
+}
+
+.social {
+    margin-top: 30px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#cursos .container {
+    background-color: #EAA59F;
+    width: 100%;
+    align-items: center;
+}
+
+#cursos .container img {
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#cursos .container a {
+    text-decoration:none;
+    background-color: #CB5C64;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff5f5;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 15px;
+    margin-bottom: 40px ;
+}
+
+#cursos .cursos-pro {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#cursos .container a:hover {
+    background-color: #e4908A;
+}
+
+#cursos .container p {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 90px;
+}
+
+form input,
+form textarea,
+form button {
+    display:block;
+    padding: 14px ;
+    width: 320px;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    background-color:#F4DADB;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color:#CB5C64;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color: #fff5f5;
+    border: none;
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color:#e4908A;
+}
+
+#contact .container {
+    align-items: center;
+}
+
+footer {
+    padding: 30px;
+    background-color:#f7bab5;
+    color:#000000;
+    align-items: center;
+    text-align: center;
+    
+}
